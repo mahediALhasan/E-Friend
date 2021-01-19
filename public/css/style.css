@@ -1,0 +1,307 @@
+*{ margin: 0; padding: 0; box-sizing: border-box; font-family: 'Big Shoulders Inline Text', cursive;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Source Code Pro', monospace;}
+    a{ text-decoration: none; }
+    a: hover { text-decoration: none; }
+    p{
+        font-size: 0.9rem;
+        line-height: 1.6;
+        font-weight: 400;
+        color: #606060;
+    }
+    
+    .extra-div h2{
+        font-size: 0.9rem;
+        margin: 20px 0 15px 0;
+        font-weight: bold;
+        line-height: 1.1;
+        word-spacing: 1px;
+    }
+    li{ list-style: none; }
+    .header {
+        width: 100%;
+        height: 100vh;
+        background-image:linear-gradient(rgba(0,168,255,0.3),rgba(0,168,255,0.3)), url('../images/online-seller-works-home-office-packs-shipping-delivery-box-customer_31965-6808.jpg');
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        clip-path: polygon(100% 0%, 100% 85%, 50% 100%, 0 85%, 0 0);  
+        position: relative;
+    }
+    
+    .header:before{
+        content: "";
+        position: absolute;
+        top: 0%;
+        bottom: 0%;
+        left: 0%;
+        right: 0%;
+        opacity: .4;
+        z-index: -1;
+        background: linear-gradient(to right, #1e5799 0%, #3ccdbb 0%, #16c9f5 100%); 
+    }
+    
+    .navbar:before{
+        content: "";
+        position: absolute;
+        top: 0%;
+        bottom: 0%;
+        left: 0%;
+        right: 0%;
+        opacity: .4;
+        z-index: -1;
+        background: linear-gradient(to right, #1e5799 0%, #3ccdbb 0%, #16c9f5 100%); 
+    }
+    
+    .nav-item a{
+        color: #fff!important;
+        font-weight: bold;
+    } 
+    
+    
+    .header-section{
+        width: 100%;
+        height: inherit;
+        color: white;
+        text-align: center;
+        position: relative;
+    }
+    
+    .center-div{
+        width: 100%;
+        height: auto;
+        position: absolute;
+        top: 70%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        -webkit-transform: translate(-50%, -50%);
+    }
+    
+    .header-buttons a{
+        border: 1px solid #fff;
+        border-radius: 100px;
+        margin: 0 5px;
+        padding: 12px 35px;
+        outline: none;
+        color: #fff;
+        font-size: 1rem;
+        font-weight: 400;
+        line-height: 1.4;
+        text-align: center;
+    
+    
+    }
+    
+    .header-buttons a:hover{
+        color: #50d1c0;
+        background: #fff;
+        text-decoration: none;
+        box-shadow: 0 0 20px 0 rgba(0,0,0,0.3)
+    }
+    
+    .center-div p{
+        font-size: 1.1rem;
+        padding: 5px 0 10px 0;
+    }
+    
+    .header-extradiv{
+        width: 100%; height: auto;
+        margin: 100px 0;
+        text-align: center;
+    
+    }
+    .extra-div{
+        background: #fff
+        border:medium none;
+        padding: 50px;
+        border-radius: 3px;
+        transition: 0.3s;
+    }
+    
+    .extra-div:hover{
+        box-shadow: 0 0 20px 0 rgba(0,0,0,0.3);
+        transform: translateY(-20px);
+    }
+    
+    /******* order status starts********/
+    
+    .orderstatus{
+        width: 100%;
+        height: 100vh;
+        padding: 50px;
+        position: relative;
+    }
+    .orderstatus:before{
+        content: "";
+        position: absolute;
+        top: 0%;
+        bottom: 0%;
+        left: 0%;
+        right: 0%;
+        z-index: -1;
+        background: linear-gradient(180deg, #FFC0CB 55%, #fff 0%); 
+    }
+    
+    /******* order status ends ********/
+    
+    /******* add shop Starts ********/
+    
+    .openshop{
+        width: 100%;
+        height: 100vh;
+        padding: 50px;
+        position: relative;
+    }
+    .openshop:before{
+        content: "";
+        position: absolute;
+        top: 0%;
+        bottom: 0%;
+        left: 0%;
+        right: 0%;
+        z-index: -1;
+        background: linear-gradient(160deg, #16c9f6 55%, #fff 0%); 
+    }
+    
+    .commission{
+        font-size: 40px;
+        line-height: 1;
+        color: #6060606;
+    }
+    .card{
+        transition: 0.4s ease;
+    
+    }
+    
+    
+    
+    .card-header{
+        font-size: 1.6rem;
+        font-weight: bold;
+        background: #fff!important;
+        padding: 25px 9!important;
+    }
+    
+    .card-body{
+        padding: 30px 0px!important;
+    }
+    
+    
+    .card-body li{
+          margin: 10px 0;
+          font-weight: 400;
+          font-size: 15px;
+          line-height: 1.6;
+          color: #606060;
+    
+    } 
+    
+    .card-footer{
+        background: white!important;
+        padding: 30px 0px!important;
+    }
+    
+    .card-footer a{
+        border: 1px solid #50c1d0;
+        border-radius: 100px;
+        margin: 0 5px;
+        padding: 12px 35px;
+        outline: none;
+        color: #50d1c0;
+        font-size: 1rem;
+        font-weight: 400;
+        line-height: 1.4;
+        text-align: center;
+    
+    
+    }
+    
+    .card:hover .card-footer a{
+        color: #fff;
+        background: #50d1c0;
+        text-decoration: none;
+        box-shadow: 0 0 20px 0 rgba(0,0,0,0.3)
+    }
+    
+    .card:hover{
+        transform: translateY(-20px);
+        box-shadow: 0 0 20px 0 rgba(0,0,0,0.3) 
+    }
+    
+    .card:hover .card-header,.commission {
+        
+        color: #50d1c0;
+    
+        
+    }
+    .card-second{
+        transform: translateY(-20px);
+        box-shadow: 0 0 20px 0 rgba(0,0,0,0.3) 
+    }
+    /******* add shop ends ********/
+    
+    /******* individual shop sell Start ********/
+    .individualsell{
+        width: 100%;
+        height: 100vh;
+        padding: 150px 0;
+        position: relative;
+    }
+    
+    .box{
+        text-align: center;
+        border:1px solid rgba(0,0,0,0.2);
+        box-shadow: 0 5px 10px 0 rgba(0,0,0,0.3)
+        border-radius: 2px;
+        transition: 0.3s ease;
+    
+    }
+    
+    .box:hover{
+        background: #16c9f6;
+    }
+    .carousel-indicators{
+        position: absolute;
+        right: 0;
+        bottom: -60px!important;
+    }
+    
+    .carousel-indicators li{
+        background-color: #16c9f6!important; 
+    }
+    
+    .box a img{
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        margin-top: 20px; 
+    }
+    .box li{
+        font-size: 20px;
+        font-size: 400;
+        color: #000;
+        margin-bottom: 10px;
+    }
+    /******* individubal shop sell ends ********/
+    
+    /******* contact us starts ********/
+    .contactus{
+        width: 100%;
+        height: 100vh;
+        padding: 80px 0; 
+        position: relative;
+    
+    
+    }
+    .contactus:before{
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        background: linear-gradient(330deg,#16c9f6 55%,#fff 0%);
+        z-index: -1;
+    
+    }
+    /******* contact us ends ********/
